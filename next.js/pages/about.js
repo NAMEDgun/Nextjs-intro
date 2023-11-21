@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Lee from "../components/Lee";
 
 export default function Potata() {
