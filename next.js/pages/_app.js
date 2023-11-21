@@ -1,9 +1,11 @@
-import { Component } from "react";
+import Layout from "../components/Layout";
+import NavBar from "../components/NavBar";
+import "../styles/globals.css";
 
-export default function App({Potato, pageProps}) {
+export default function MyApp({ Component, pageProps }) {
     return (
-    <div>
-        <Component {...pageProps }/>
-    </div>
+        <Layout>
+            <Component {...pageProps } />
+        </Layout>
     );
 }

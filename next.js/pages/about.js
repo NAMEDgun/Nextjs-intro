@@ -1,10 +1,11 @@
-import NavBar from "../components/NavBar";
+import Head from "next/head";
+import Lee from "../components/Lee";
 
 export default function Potata() {
     return (
         <div>
-            <NavBar />
-            <h1>About Us</h1>
+            <Lee title="About" />
+            <h1>About</h1>
         </div>
     );
 }
