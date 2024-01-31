@@ -1,0 +1,75 @@
+.flexRowContainer {
+    display: flex;
+}
+
+.flexColumnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.blackfont {
+    color: #1b1e26;
+    text-align: center;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.BigBlack {
+    line-height: 2.8vw;
+    font-size: 2vw;
+}
+
+.aiImg {
+    display: flex;
+    margin-left: 10vw;
+    align-items: center;
+    margin-top: 7vw;
+}
+
+.mdBlack {
+    color: #1b1e26;
+    margin-left: 10vw;
+    font-family: Pretendard;
+    font-style: normal;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.ssmMarginTop {
+    margin-top: 2vw;
+}
+
+.SmallBlack {
+    color: #1b1e26;
+
+    margin-top: 0.5vw;
+    font-size: 0.9vw;
+    font-weight: bold;
+    line-height: 1.75vw;
+}
+.marginTop {
+    margin-top: 6vw;
+}
+
+.statusText {
+    color: #4d5766;
+    font-size: 0.75vw;
+    line-height: 1.125vw; /* 150% */
+    margin-top: 0.8vw;
+}
+
+.specsfont {
+    color: #858c9f;
+    font-size: 0.8125vw;
+    font-weight: 400;
+    line-height: 1.25vw; /* 153.846% */
+}
+
+.imgSize {
+    width: 40vw;
+    height: auto;
+}

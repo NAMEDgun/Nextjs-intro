@@ -1,0 +1,267 @@
+.Card {
+    width: 38.25vw;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 1.125vw;
+    border: 1px solid #000000;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vw;
+    gap: 1vw;
+}
+
+.simpleflexRow {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.simpleflexColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.mb2 {
+    margin-bottom: 1vw;
+}
+
+.grayLine {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 34vw;
+    height: 0.05vw;
+    background: #e5e8eb;
+}
+
+.mlmt3 {
+    margin-left: 2vw;
+    margin-top: 0.75vw;
+}
+.mlmt3 img {
+    width: 35vw;
+    height: auto;
+}
+.mlmt3 img:first-child {
+    height: 1.5vw;
+    width: 6.6vw;
+}
+
+.mlmt2 {
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.mt2 {
+    margin-top: 2vw;
+}
+
+.mt1 {
+    margin-top: 0.7vw;
+}
+
+.ml3 {
+    margin-left: 2.5vw;
+}
+
+.ml1 {
+    margin-left: 0.5vw;
+}
+.boardContainer {
+    height: 53.6vw;
+    border-radius: 1.125vw;
+    border: 0.1vw solid #e5e8eb;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.aijc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boardSize {
+    width: 38.25vw;
+    height: 65.5vw;
+    flex-shrink: 0;
+}
+
+.boardSmallSize {
+    width: 18.4375vw;
+    height: 10.26vw;
+    flex-shrink: 0;
+}
+.titleSize {
+    width: 38.25vw;
+    height: 16.7vw;
+}
+
+.square {
+    width: 15.1vw;
+    height: 11.3vw;
+    border-radius: 0.5vw;
+    border: 1px solid #e5e8eb;
+}
+.logo {
+    height: 1.5vw;
+}
+
+.likebutton {
+    display: flex;
+    flex-direction: row;
+    width: 4.6vw;
+    height: 1.5vw;
+    border-radius: 1.125vw;
+    border: 1px solid #e5e8eb;
+    align-items: center;
+    justify-content: center;
+    color: #8b95a1;
+    text-align: center;
+    font-size: 0.66vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
+    gap: 0.2vw;
+    cursor: pointer;
+}
+.likebutton img {
+    height: 0.8vw;
+}
+.likebutton:hover {
+    background: #ffd0d0;
+    color: #fff;
+    border: 1px solid #ebaeae;
+}
+
+.endOfjc {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexRowGap {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.blackFont {
+    color: #1b1e26;
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+
+.pletter {
+    color: #4d5766;
+    font-size: 0.73vw;
+    font-weight: 400;
+    letter-spacing: -0.03vw;
+}
+
+.columnGap {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.columnMoreGap {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.smgray {
+    color: #8b95a1;
+    font-size: 0.6vw;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-top: 0.5vw;
+}
+
+.ssmgray {
+    color: #4d5766;
+    font-size: 0.5vw;
+    font-weight: 400;
+}
+
+.smblack {
+    color: #1b1e26;
+    font-size: 0.67vw;
+    font-weight: 600;
+}
+
+.ssmblack {
+    color: #1b1e26;
+    font-size: 0.625vw;
+    font-weight: 600;
+}
+
+.sssmblack {
+    color: #1b1e26;
+    font-size: 0.625vw;
+    font-weight: 600;
+}
+
+.mdblack {
+    color: #1b1e26;
+    font-size: 0.8854vw;
+    font-weight: 600;
+}
+
+.BlueButton {
+    width: 7.34vw;
+    height: 2.5vw;
+    border-radius: 0.46vw;
+    background: #267dff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+
+    text-align: center;
+    font-size: 0.8vw;
+    letter-spacing: -0.1vw;
+    white-space: nowrap;
+}
+
+.BlueButton:hover {
+    background: #1a5db8;
+}
+
+.SkyBlueButton {
+    width: 7.34vw;
+    height: 2.5vw;
+    border-radius: 0.46vw;
+    background: #dceaff;
+    border: none;
+    color: #267dff;
+    cursor: pointer;
+    font-weight: 600;
+
+    text-align: center;
+    font-size: 0.8vw;
+    letter-spacing: -0.1vw;
+    white-space: nowrap;
+}
+.SkyBlueButton:hover {
+    background: #c2d2ed;
+}
+
+.gap1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.redDot {
+    width: 0.3vw;
+}
+
+.proposalImage {
+    width: 5vw;
+    height: 5vw;
+}

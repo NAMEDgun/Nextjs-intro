@@ -1,0 +1,330 @@
+.abox {
+    padding: 0.6rem 21vw;
+    width: 100%;
+    border-bottom: 0.0625rem solid #ebebeb;
+
+    color: #4d5766;
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 1.75rem;
+    height: 64vw;
+    padding: 0 21vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox {
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    border-radius: 1.25vw;
+    border: 1px solid #e5e8eb;
+    height: 16vw;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.profile a {
+    height: 1.8vw;
+    padding-top: 0.6vw;
+    border-radius: 1.25vw 1.25vw 0 0;
+    background: #f3f7fc;
+
+    color: #267dff;
+    font-size: 0.875vw;
+    font-weight: 600;
+    letter-spacing: -0.0175vw;
+}
+.logo {
+    width: 3vw;
+    margin-left: 8vw;
+    margin-top: 1.5vw;
+}
+.badge {
+    width: 4vw;
+    margin-left: 7.5vw;
+}
+.profile .title {
+    color: #1b1e26;
+    font-size: 1vw;
+    font-weight: 600;
+    background: none;
+}
+.profile button {
+    margin: 1.5vw 1.5vw 0 1.5vw;
+    width: 15vw;
+    height: 2.5vw;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5vw;
+    border: 1px solid #ebecee;
+    background: none;
+
+    color: #4d5766;
+    font-size: 0.8vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.chat {
+    border-radius: 0.75vw;
+    border: 1px solid #e5e8eb;
+    background: #fff;
+    height: 46vw;
+
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125vw;
+    font-weight: 700;
+    line-height: 100%; /* 1.25rem */
+    letter-spacing: 0.01519vw;
+}
+
+.rightbox {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.statusbox {
+    height: 11vw;
+    border-radius: 0.75vw;
+    border: 1px solid #e5e8eb;
+    white-space: nowrap;
+}
+.status {
+    padding: 1.2vw 0;
+    display: flex;
+}
+.status div {
+    width: 100%;
+    border-left: 0.04vw solid #e5e8eb;
+}
+.status div:first-child {
+    border: none;
+}
+.status div div {
+    border: none;
+}
+.status div a {
+    color: #4d5766;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.5vw;
+}
+.status div .blue {
+    color: #267dff;
+}
+.status div .red {
+    color: #fa5273;
+}
+.numberbox {
+    display: flex;
+}
+.numberbox h3 {
+    width: 8vw;
+    text-align: right;
+    margin: 0;
+    color: #1b1e26;
+    font-size: 2.6vw;
+    font-weight: 700;
+    margin-left: 1.5vw;
+    margin-top: 1.8vw;
+}
+.numberbox label {
+    margin-top: 3.2vw;
+    color: #1b1e26;
+    font-size: 1.25vw;
+    font-weight: 700;
+}
+
+.activeButton {
+    color: #a0a5b1;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+    background: none;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 0.75vw 0rem 0rem 0rem;
+    background: #267dff;
+
+    color: var(--W, #fff);
+}
+
+.inactiveButton {
+    background-color: #fff; /* 흰색 배경 */
+    color: #a0a5b1; /* 회색 텍스트 */
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+    background: none;
+    width: 50%;
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    border-radius: 0.75vw 0.75vw 0rem 0rem;
+    border-bottom: 1px solid #e5e8eb;
+    background: var(--W, #fff);
+    height: 2.1vw;
+}
+/* .information button {
+    color: #a0a5b1;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+    background: none;
+    width: 50%;
+    cursor: pointer;
+}
+.information button:first-child {
+    border-radius: 0.75vw 0rem 0rem 0rem;
+    background: #267dff;
+
+    color: var(--W, #fff);
+} */
+
+.bigbox {
+    /* background-color: red; */
+    padding: 0 1.25vw;
+    display: flex;
+    flex-direction: column;
+}
+.waiting {
+    margin: 1vw 0;
+}
+.basictitle {
+    height: 1.5vw;
+    display: flex;
+    text-align: center;
+    gap: 0.5vw;
+    margin-bottom: 1.25vw;
+}
+.basictitle span {
+    color: #1b1e26;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.basicshowing {
+    width: 1.5vw;
+    display: flex;
+    padding: 0.3vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vw;
+    background: #267dff;
+
+    color: #fff;
+    text-align: center;
+    font-size: 0.7vw;
+    font-weight: 600;
+    letter-spacing: -0.015vw;
+}
+
+.basiccontent {
+    height: 8.2vw;
+    gap: 1vw;
+
+    border-radius: 1vw;
+    box-shadow: 0 6px 16px 0px rgba(0, 0, 0, 0.04);
+}
+.basicinfo {
+    display: flex;
+    height: 2.07vw;
+
+    border-radius: 1vw 1vw 0rem 0rem;
+    background: #ebedf0;
+
+    color: #4d5766;
+    text-align: center;
+    font-size: 0.6vw;
+    font-weight: 500;
+    line-height: 2vw; /* 138.462% */
+}
+.basicinfo a {
+    width: 20%;
+}
+
+.basicsta {
+    height: auto;
+    margin-top: 1vw;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+
+    color: #1b1e26;
+    text-align: center;
+    font-size: 0.6vw;
+    font-weight: 600;
+    cursor: default;
+}
+.infocontent {
+    width: 20%;
+    line-height: 0.6rem;
+}
+.infosta {
+    width: 5vw;
+    margin: 0 1.1vw;
+    height: 1.8vw;
+    border-radius: 2.6vw;
+    background: rgba(38, 125, 255, 0.1);
+    border: none;
+
+    color: #267dff;
+    text-align: center;
+    font-size: 0.6vw;
+    font-weight: 600;
+}
+.infotype {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.infotype a {
+    margin-left: 1vw;
+}
+.detailed {
+    color: #267dff;
+    font-size: 0.55vw;
+    font-weight: 600;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.infoselect {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+}
+.infoselect button {
+    width: 5vw;
+    height: 1.6vw;
+    border-radius: 3vw;
+    cursor: pointer;
+    border: none;
+    font-size: 0.6vw;
+    font-weight: 600;
+    color: #7253f0;
+    background: rgba(114, 83, 240, 0.1);
+    margin-left: 1vw;
+}
+.infoselect button:first-child {
+    background: rgba(94, 172, 104, 0.1);
+    color: #5eac68;
+}

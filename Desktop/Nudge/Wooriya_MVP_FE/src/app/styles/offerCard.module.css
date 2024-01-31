@@ -1,0 +1,213 @@
+.banner {
+    width: 58vw;
+    height: 6.875vw;
+    border-radius: 0.75rem;
+    background: #267DFF;
+    display: flex;
+    margin-bottom: 4.25vw;
+}
+
+.banner a {
+    color: #FFF;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 1.875vw; /* 150% */
+    margin: 1.56vw 0 1.56vw 3vw;
+    white-space: nowrap;
+}
+.banner img {
+    margin-left: 8vw;
+    width: 8vw;
+}
+.banner button {
+    height: 2.5vw;
+    padding: 0.9375vw 2vw;
+    margin: 2vw 3vw 0 auto;
+    border-radius: 3.125rem;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+
+    color: #267DFF;
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 0.9375vw; /* 100% */
+}
+
+
+.card {
+    width: 58vw;
+    height: 11vw;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #e5e8eb;
+    background: #fff;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.04);
+    margin-bottom: 1.25vw;
+    cursor: pointer;
+}
+.card img{
+    margin: 0 2vw 2vw 2vw;
+    width: 4.5vw;
+}
+.container {
+    width: 100%;
+}
+.cardHeader {
+    height: 1.625vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.cardTitle {
+    margin-top: 1.4vw;
+    color: #1B1E26;
+    font-size: 1.125vw;
+    font-weight: 600;
+}
+.cardStatus {
+    color: #FFF;
+    font-size: 0.75vw;
+    font-weight: 700;
+    line-height: 0.75vw; /* 100% */
+
+    display: flex;
+    padding: 0.5vw 0.75vw 0.5625vw 0.75vw;
+    border-radius: 2px;
+    border-radius: 0rem 1rem;
+    border: 1px solid var(--Full-Button-Color, #FA5273);
+    background: #FA5273;
+}
+.cardBody {
+    margin-top: 1.4vw;
+
+    color: #1B1E26;
+    font-size: 0.875vw;
+    font-weight: 600;
+}
+.cardDescription {
+    margin: 0;
+    width: 20vw;
+    color: #4D5766;
+    font-size: 0.62vw;
+    font-weight: 400;
+}
+.Category {
+    margin-top: 0.8vw;
+    font-size: 0.75vw;
+    font-weight: 400;
+    letter-spacing: -0.015vw;
+
+    display: flex;
+    gap: 0.625rem;
+}
+.sports {
+    padding: 0.2vw 0.5vw;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(94, 172, 104, 0.50);
+    background: rgba(94, 172, 104, 0.10);
+    
+    color: #5EAC68;
+}
+.culture {
+    padding: 0.2vw 0.5vw;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(250, 82, 115, 0.50);
+    background: rgba(250, 82, 115, 0.10);
+    
+    color: #FA5273;
+}
+.education {
+    padding: 0.2vw 0.5vw;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(93, 103, 207, 0.50);
+    background: rgba(93, 103, 207, 0.10);
+
+    color: #5D67CF;
+}
+
+.information {
+    width: 18.75vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.25vw;
+    white-space: nowrap;
+}
+.type {
+    margin-top: 1.5vw;
+    display: flex;
+}
+.typebox {
+    padding: 0 1.52vw;
+}
+.typebox:first-child {
+    border-right: 0.0625vw solid #E5E8EB;
+}
+.type span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 6vw;
+
+    color: #858C9F;
+    font-size: 0.75vw;
+    font-weight: 400;
+}
+.type label {
+    margin-top: 0.25vw;
+    color: #293952;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.toggle {
+    display: flex;
+    height: 2.625vw;
+    border-radius: 0.25rem;
+    background: #FAFAFB;
+    margin-top: 1vw;
+}
+.togglebox {
+    padding: 0.7vw 1vw;
+    width: 9.3vw;
+    display: flex;
+    justify-content: center;
+}
+.togglebox img {
+    width: 1vw;
+    height: 1vw;
+    margin: 0;
+}
+.togglebox button {
+    color: #8B95A1;
+    font-size: 0.8125vw;
+    font-weight: 400;
+    border: none;
+    background: none;
+}
+.togglebox span {
+    color: #333D4B;
+    font-size: 0.8125vw;
+    font-weight: 400;
+}
+
+/* .cardFooter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+/* 
+.card-action {
+    background-color: blue;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+

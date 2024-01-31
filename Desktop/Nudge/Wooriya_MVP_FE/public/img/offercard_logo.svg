@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="IMG">
+<mask id="mask0_852_19256" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+<rect id="Rectangle 6690" width="72" height="72" rx="10" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_852_19256)">
+<rect id="Rectangle 6705" width="72" height="72" fill="#FAFAFB"/>
+<g id="img">
+<g id="Group">
+<path id="Vector" d="M43.0593 36.0573V44.6319H42.9551V50.5142H43.0593V52.5309H56.0002V33.7969L43.0593 36.0573Z" fill="#DDE1E7"/>
+<path id="Vector_2" d="M43.1677 50.5136V44.6314H43.1659V36.0568V19L27.1998 23.047V52.5304H43.1659V50.5136H43.1677Z" fill="#C0C7CF"/>
+</g>
+<path id="Vector_3" d="M27.1999 32.3633H16V52.5309H27.1999V32.3633Z" fill="#DDE1E7"/>
+<path id="Vector_4" d="M38.689 28.3291H30.79V29.5055H38.689V28.3291Z" fill="white"/>
+<path id="Vector_5" d="M38.689 33.0352H30.79V34.2116H38.689V33.0352Z" fill="white"/>
+</g>
+</g>
+</g>
+</svg>

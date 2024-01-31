@@ -1,0 +1,100 @@
+.modalBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.modalContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 26.25vw;
+    height: 31.1875vw;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    width: 3vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.airplaneIcon {
+    width: 5vw;
+    margin-top: 3.5vw;
+}
+
+.offerForm {
+    margin-top: 0.75vw;
+
+    color: #1b1e26;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: -0.1vw;
+}
+
+.childrenForm {
+    margin-top: 0.5vw;
+
+    color: #4d5766;
+    font-size: 0.7vw;
+    font-weight: 400;
+}
+
+.messageInput {
+    justify-content: center;
+    text-align: start;
+    margin-top: 1.5vw;
+
+    width: 20.4vw;
+    height: 6vw;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e8eb;
+
+    color: #1b1e26;
+    font-size: 0.7vw;
+    font-weight: 400;
+    padding: 1rem;
+}
+.messageInput::-webkit-input-placeholder {
+    color: #b6bcc3;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2vw;
+    gap: 0.5vw;
+}
+.backButton,
+.sendButton {
+    padding: 0.9375vw 2vw;
+    width: 11vw;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    font-size: 0.8vw;
+    font-weight: 600;
+    line-height: 0.9375vw; /* 93.75% */
+}
+.backButton {
+    background: #f2f4f6;
+}
+.sendButton {
+    background: #007bff;
+    color: white;
+}

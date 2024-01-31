@@ -1,0 +1,79 @@
+.container {
+    width: 100vw;
+    height: 45.25vw;
+    background: #267DFF;
+    margin-top: 6.2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container a {
+    color: #4D5766;
+    text-align: center;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    opacity: 0.7;
+    cursor: default;
+}
+
+.container a:first-child {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.container label {
+    color: #FFF;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 3.5vw; /* 140% */
+}
+
+.character {
+    height: 23.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 21vw 0 21vw;
+}
+
+.character .charbox {
+    height: 13.5vw;
+}
+
+.character div {
+    width: 18vw;
+    background: #FFF;
+    border-radius: 1.25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.char1 {
+    width: 8vw;
+    height: 11.571vw;
+    margin: 3.2vw 0 0 4.8vw;
+}
+
+.char3 {
+    height: 7.8vw;
+    margin-top: 5vw;
+}
+
+.container div div span {
+    color: #262626;
+    font-size: 1.25vw;
+    font-weight: 700;
+    line-height: 1.9vw;
+    cursor: default;
+    text-align: center;
+    margin-top: 1.8vw;
+}
+
+.container div div a {
+    margin-top: 0.5vw;
+    padding: 0 2.4vw;
+}

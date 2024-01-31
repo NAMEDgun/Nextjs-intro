@@ -1,0 +1,46 @@
+.container {
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 5vw 21vw 7.5vw 21vw;
+    
+    border-radius: 0.75vw;
+    background: #F6F3FF;
+}
+
+.container img {
+    margin-left: 3.7vw;
+    width: 11vw;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    color: #7E6BC8; 
+    font-size: 1.25vw;
+    cursor: default;
+    font-weight: 600;
+
+    gap: 0.4vw;
+}
+
+.container button {
+    padding: 0.94vw 2vw;
+    height: 2.5vw;
+    margin-right: 3.7vw;
+    margin-top: 3.8vw;
+
+    background: #7E6BC8;
+    border: none;
+    border-radius: 3.125vw;
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 0.78vw;
+    font-weight: 600;
+    line-height: 0.78vw; /* 100% */
+}

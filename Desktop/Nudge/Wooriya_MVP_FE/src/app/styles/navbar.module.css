@@ -1,0 +1,49 @@
+.navbar {
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.1vw;
+    border-bottom: 0.1vw solid #E5E8EB;
+    background: #FFF;   
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    padding: 0.5vw 10vw;
+    box-shadow: 0 0.1vw 0.21vw rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 8vw;
+    height: 1.8vw;
+    padding: 0 0.00005vw 0.0062vw 0;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .second {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    margin: 0 17vw; /* 가로 중앙 정렬 */
+    gap: 1.8vw;
+  }
+  
+  .navbar span {
+    width: 4.6vw;
+    color: #1B1E26;
+    cursor: pointer;
+    font-size: 0.8vw;
+    font-weight: 600;
+  }
+
+  .navbar a {
+    color: #858C9F;
+    font-size: 0.625vw;
+    font-weight: 500;
+    cursor: default;
+    letter-spacing: -0.1vw;
+    width: 5.7vw;
+    margin-left: 0.5vw;
+  }

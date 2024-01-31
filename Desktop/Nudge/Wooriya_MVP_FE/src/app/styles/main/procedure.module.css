@@ -1,0 +1,148 @@
+.basicbutton {
+    padding: 0.5vw 0.6vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    border-radius: 0.625vw;
+    border: 1px solid rgba(77, 87, 102, 0.3);
+    display: flex;
+    background: #ffffff;
+    color: #4d5766;
+    font-size: 0.7vw;
+    font-weight: 600;
+    line-height: 1vw; /* 114.286% */
+    flex-direction: row;
+}
+
+.activeButton {
+    display: flex;
+    padding: 0.625vw 0.75vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375vw;
+    border-radius: 0.625vw;
+    background: #4d5766;
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 0.875vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1vw; /* 114.286% */
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    gap: 0.25vw;
+}
+
+.container {
+    white-space: nowrap;
+    display: flex;
+    height: auto;
+    padding: 10vw 10vw;
+    flex-direction: column;
+}
+
+.biggrayfont {
+    color: #858c9f;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 2vw; /* 150% */
+}
+
+.bigblackfont {
+    color: #1b1e26;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 3.5vw; /* 141.667% */
+    margin-bottom: 3vw;
+    margin-top: 0.5vw;
+}
+
+.bluefont {
+    color: #267dff;
+    font-size: 1.125vw;
+    font-weight: 700;
+    line-height: 1.75vw; /* 155.556% */
+    margin-bottom: 1vw;
+}
+.blackfont {
+    color: #1b1e26;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 3.2vw;
+    margin-bottom: 0.1vw;
+}
+.grayfont {
+    color: #4d5766;
+    font-size: 1w;
+    font-weight: 400;
+    line-height: 1.5vw;
+    margin-top: 1vw;
+}
+
+.step {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.slideImage {
+    height: auto;
+    width: 30vw;
+}
+
+.webpImage {
+    width: 35vw;
+}
+
+.flexcontainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stepContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    gap: 6vw;
+}
+
+.OneContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.TwoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    margin-right: 5vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.container a {
+    color: #858c9f;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 1.5vw; /* 24px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25vw; /* 36px */
+}

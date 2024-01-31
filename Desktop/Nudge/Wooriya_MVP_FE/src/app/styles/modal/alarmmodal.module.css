@@ -1,0 +1,126 @@
+.modalContainer {
+    position: fixed;
+    margin-top: 2.5vw;
+    margin-left: -19vw;
+    align-items: center;
+    width: 19vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 1vw;
+    box-shadow: 0 0.1vw 0.3vw 0 #bcbcbc;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+    width: 2vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.alarmtitle {
+    height: 2.7vw;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+
+    color: #000;
+    font-size: 0.8vw;
+    font-weight: 600;
+    line-height: 3.2vw; /* 128.571% */
+}
+.alarmtitle div {
+    margin-left: 2vw;
+}
+
+.alarmcontainer {
+    width: 15vw;
+    padding: 1.125vw 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+.alsubtitle {
+    color: #267DFF;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.alsubcon {
+    color: #1B1E26;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3125rem; /* 150% */
+}
+.alarmtime {
+    color: #858C9F;
+    font-size: 0.75rem;
+    font-weight: 100;
+    line-height: 1.125rem; /* 150% */
+}
+/* 
+.airplaneIcon {
+    width: 5vw;
+    margin-top: 3.5vw;
+}
+
+.offerForm {
+    margin-top: 0.75vw;
+
+    color: #1B1E26;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: -0.1vw;
+}
+
+.childrenForm {
+    margin-top: 0.5vw;
+
+    color: #4D5766;
+    font-size: 0.7vw;
+    font-weight: 400;
+}
+
+.messageInput {
+    justify-content: center;
+    text-align: start;
+    margin-top: 1.5vw;
+
+    width: 20.4vw;
+    height: 6vw;
+    border-radius: 0.5rem;
+    border: 1px solid #E5E8EB;
+
+    color: #1B1E26;
+    font-size: 0.7vw;
+    font-weight: 400;
+    padding: 1rem;
+}
+.messageInput::-webkit-input-placeholder {
+    color: #B6BCC3;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2vw;
+    gap: 0.5vw;
+}
+.backButton, .sendButton {
+    padding: 0.9375vw 2vw;
+    width: 11vw;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    font-size: 0.8vw;
+    font-weight: 600;
+    line-height: 0.9375vw; /* 93.75%
+}
+.backButton { 
+    background: #F2F4F6;
+}
+.sendButton {
+    background: #007bff;
+    color: white;
+} */

@@ -1,0 +1,42 @@
+.sidebar {
+    white-space: nowrap;
+    position: fixed;
+    top: 3.125rem; /* 네비게이션 바의 높이만큼 아래에 위치 */
+    z-index: 999; /* 네비게이션 바보다 낮은 z-index */
+    margin-top: 3.5rem;
+}
+
+.category {
+    display: flex;
+    gap: 0.6vw;
+}
+.category img {
+    width: 1.5vw;
+}
+.category h3 {
+    font-size: 1.125vw;
+    color: #1B1E26;;
+    font-weight: 600;
+}
+
+.link {
+    border-left: 0.0625rem solid #E5E8EB;
+    display: block;
+    font-size: 1vw;
+    color: #1B1E26;
+    margin-left: 1vw;
+    padding: 0.8vw ;
+    text-decoration: none;
+
+    font-weight: 400;
+}
+
+.link:hover {
+    color: #267DFF;
+    font-weight: 600;
+}
+
+.activeLink {
+    color: #ffffff;
+    background-color: #007bff;
+}

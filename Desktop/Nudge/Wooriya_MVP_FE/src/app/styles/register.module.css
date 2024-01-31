@@ -1,0 +1,360 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexableimg {
+    display: flex;
+    gap: 1vw;
+}
+.fleximg {
+    display: flex;
+    gap: 1vw;
+}
+.fleximg button {
+    margin-top: 1vw;
+    border: none;
+    background: none;
+    width: 2.8vw;
+    height: 2.8vw;
+}
+.fleximg img {
+    border-radius: 0.5vw;
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+.postingcontainer {
+    border-radius: 1.125vw;
+    margin: 8.75vw 21vw;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.04);
+    height: 85vw;
+}
+.postingtitle {
+    height: 6vw;
+    padding-left: 2.5vw;
+    border-bottom: 0.1vw solid #E5E8EB;
+}
+.title {
+    color: #267DFF;
+    font-size: 1vw;
+    font-weight: 600;
+    padding-top: 1.8vw;
+}
+.subtitle {
+    color: #8B95A1;
+    font-size: 0.66vw;
+    margin-top: 0.2vw;
+    font-weight: 700;
+}
+.postingcontent {
+    height: 70vw;
+    border-radius: 0.625vw;
+    border: 0.1vw solid #E5E8EB;
+    margin: 2vw 4.8vw;
+    padding: 1.7vw 1.25vw;
+}
+
+.comment {
+    margin-top: 8vw;
+    width: 15.5vw;
+    height: 1.8vw;
+    border-radius: 1vw;
+    background: #fff8f1;
+    border: 0.1vw solid #e2e1e2;
+    color: #ff7a69;
+    font-weight: 600;
+    letter-spacing: -0.05vw;
+    font-size: 0.77vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.logo img {
+    margin-top: 1.5vw;
+    width: 8vw;
+}
+
+.container a {
+    color: #1b1e26;
+    margin-top: 0.8vw;
+    font-size: 1.125vw;
+    font-weight: 600;
+}
+
+.middletitle {
+    color: #1b1e26;
+    font-size: 0.8vw;
+    font-weight: 600;
+    letter-spacing: -0.05vw;
+    margin: 0;
+    cursor: default;
+}
+
+.terms {
+    margin-top: 3.8vw;
+    width: 24vw;
+    letter-spacing: -0.05vw;
+}
+
+.styledlabel {
+    display: block;
+    margin-top: 0.6vw;
+    color: #4d5766;
+    font-size: 0.72vw;
+    font-weight: 600;
+}
+
+.styledinput {
+    width: 95%;
+    height: 1.5vw;
+    border-radius: 0.5vw;
+    border: 1px solid #e5e8eb;
+    background: #fff;
+    padding: 0.47vw;
+    margin-top: 0.25vw;
+
+    color: #b6bcc3;
+    font-weight: 400;
+    font-size: 0.7vw;
+}
+
+.littlestyledinput {
+    width: 18vw;
+    height: 1.55vw;
+    border-radius: 0.4vw;
+    border: 1px solid #e5e8eb;
+    background: #fff;
+    padding: 0.4vw;
+    margin-top: 0.25vw;
+
+    color: #b6bcc3;
+    font-size: 0.7vw;
+    font-weight: 400;
+}
+
+.terms label {
+    color: #1b1e26;
+    font-size: 0.72vw;
+    font-weight: 400;
+    display: flex;
+    gap: 0.4vw;
+}
+
+.terms label input {
+    width: 1vw;
+    height: 1vw;
+}
+
+.terms span {
+    margin-top: 0.4vw;
+    color: #4d5766;
+    font-size: 0.625vw;
+    font-weight: 400;
+}
+
+.GrayLine {
+    border: none;
+    height: 0.06vw;
+    background: #e5e8eb;
+    margin: 1.25vw 0;
+}
+
+.twoButton {
+    width: 100%;
+    margin-top: 3.4vw;
+    display: flex;
+    gap: 0.4vw;
+}
+.GrayButton {
+    width: 100%;
+    height: 2.5vw;
+    padding: 0.83vw 1.8vw;
+    border-radius: 0.5vw;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.75vw;
+    background: #f2f4f6;
+}
+.littleGrayButton {
+    width: 4.5vw;
+    height: 2.5vw;
+    margin-left: 0.36vw;
+    border-radius: 0.5vw;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 0.7vw;
+    background: #f2f4f6;
+}
+
+.BlueButton {
+    width: 100%;
+    height: 2.5vw;
+    padding: 0.83vw 1.8vw;
+    border-radius: 0.5vw;
+    background: #267dff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.75vw;
+}
+
+.BlueButton:hover {
+    background: #1a5db8;
+}
+
+.ScrollableTextArea {
+    margin-top: 0.66vw;
+    margin-bottom: 1.55vw;
+    display: inline-flexbox;
+    height: 5vw;
+    padding: 0.5vw 0.3vw 3.6vw 0.625vw; /* 여기서 padding-right 값 조절 */
+    justify-content: flex-end;
+    align-items: center;
+    overflow-y: scroll;
+    border-radius: 0.5vw;
+    border: 1px solid #e5e8eb;
+    background: #fafafb;
+    height: 0.9vw;
+    color: #4d5766;
+
+    font-size: 0.625vw;
+    font-weight: 400;
+}
+
+.ScrollableTextArea::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+.ScrollableTextArea::-webkit-scrollbar-thumb {
+    height: 1.8vw;
+    border: 0.32vw solid transparent;
+    background: #e0e0e4;
+    background-clip: padding-box;
+}
+
+.ScrollableTextArea::-webkit-scrollbar-track {
+    background: none;
+}
+
+.filter {
+    margin-top: 1.125vw;
+}
+
+.selectionRectangle {
+    border-radius: 0.5vw;
+    border: 0.1vw solid #e5e8eb;
+    width: 8vw; /* Adjusted width with gap between buttons */
+    height: 2.4vw;
+    background: white;
+    font-size: 0.7vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.selectionRectangle.isClicked {
+    color: #267dff;
+    border: 0.1vw solid #267dff;
+    font-weight: 700;
+}
+
+.selectionRectangle:hover {
+    color: #267dff;
+    border: 0.1vw solid #267dff;
+}
+
+.additional {
+    width: 100%;
+    margin-top: 1.25vw;
+    display: flex;
+    gap: 1.5vw;
+    text-align: center;
+}
+
+.mt1 {
+    margin-top: 1vw;
+}
+.w18 {
+    width: 18.5vw;
+    margin: 4vw 13.7vw;
+}
+
+.promotetitle {
+    display: flex;
+    justify-content: space-between;
+}
+.smallblue {
+    color: #0F62FE;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.upload {
+    display: flex;
+    gap: 0.5vw;
+}
+.uploadbutton {
+    width: 6.5vw;
+    height: 5.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.47vw;
+    border: 1px dashed #E5E8EB;
+    border-width: medium;
+    background: #FAFAFB;
+    gap: 0.66vw;
+    margin-top: 0.1vw;
+
+    color: #8B95A1;
+    font-size: 0.625vw;
+    font-weight: 100;
+    cursor: pointer;
+}
+.uploadbutton img {
+    width: 1.25vw;
+}
+.deleteimg {
+    margin-top: 0.3vw;
+    margin-right: 0.5vw;
+    width: 3vw;
+    height: 1.5vw;
+    
+    border: none;
+    border-radius: 0.4vw;
+    background: #F2F4F6;
+
+    color: #4D5766;
+    font-size: 0.6vw;
+    font-weight: 500;
+}
+.modifyimg {
+    margin-top: 0.3vw;
+    width: 3vw;
+    height: 1.5vw;
+
+    border: none;
+    border-radius: 0.4vw;
+    background: #0F62FE;
+
+    color: #fff;
+    font-size: 0.6vw;
+    font-weight: 500;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+}
